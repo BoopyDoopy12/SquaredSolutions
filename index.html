@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>SquaredSolutions</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#calculator" data-after="Calculator">Calculator</a></li>
+            <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" data-after="Questionnaire" target="_blank">Test Questioins</a></li>
+            <li><a href="#footer" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome, <span></span></h1>
+        <h1>To<span></span></h1>
+        <h1>SquaredSolutions<span></span></h1>
+        <a href="#calculator" type="button" class="cta">Try Me!</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="calculator">
+    <div class="calculator container2">
+      <div class="calc-container">
+        <div class="calc-input">
+          <input type="number" name="Enter First Number" id="var1" placeholder="Enter First Number">
+          <span id="operator"></span>
+          <input type="number" name="" id="var2" placeholder="Enter Second Number">
+        </div>
+          <div class="calc-options">
+            <div class="row1">
+              <button class="operators">Add</button>
+              <button class="operators">Subtract</button>
+            </div>
+            <div class="row2">
+              <button class="operators">Multiply</button>
+              <button class="operators">Divide</button>
+            </div>
+            <div class="row3">
+              <button id="enter">Enter</button>
+            </div>
+            <div class="row4">
+              <div class="results-container">
+                <h3> <span id="answer"></span> </h3>
+                <h3> <span id="spanResult"></span> </h3>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="questionnaire">
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" type="button" class="cta">Arithmetic Quesitons to test!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>SquaredSolutions</span></h1>
+      </div>
+      <h2>A Simple Calculator App</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-messenger.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Group 2. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="app.js"></script>
+</body>
+</html>
